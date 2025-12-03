@@ -1,0 +1,79 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there \u2014 what can I do for you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you",
+        "Goodbye",
+        "I am leaving"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later \u2014 take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "working hours",
+        "open time"
+      ],
+      "responses": [
+        "We are open Monday to Friday, 9am to 6pm.",
+        "Our hours are 9:00\u201318:00, Mon\u2013Fri."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you offer?",
+        "Tell me your services",
+        "services"
+      ],
+      "responses": [
+        "We offer A, B and C. Which one are you interested in?",
+        "Our main services are: consulting, development, and support."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        ""
+      ],
+      "responses": [
+        "Sorry, I didn't understand. Can you rephrase?",
+        "I don't have an answer for that yet \u2014 could you try a different question?"
+      ]
+    }
+  ]
+}
